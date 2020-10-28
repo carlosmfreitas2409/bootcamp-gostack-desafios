@@ -7,7 +7,7 @@
 
 Abaixo você encontra o índice e conteúdo de cada aula:
 
-- [01 - Organizando meus estudos](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafios/desafio-01)
+- [01 - Organizando meus estudos](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-01)
 - <--->
 - <--->
 - <--->

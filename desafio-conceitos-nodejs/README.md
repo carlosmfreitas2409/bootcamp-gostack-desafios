@@ -5,9 +5,10 @@
 
 <p align="center">
     <a href="#-sobre-o-desafio">Sobre o Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-nota">Nota</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-rotas-do-backend">Rotas Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-middleware">Middleware</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-licença">Licença</a>
 </p>
 
@@ -25,27 +26,13 @@ Nesse desafio, o objetivo foi desenvolver uma API para armazenar repositórios d
 
 Para isso, foi desenvolvido um back-end simples que recebe requisiçes HTTP através do http://localhost:3333/ e salva os dados em um array do próprio código.
 
-## 💿 Instalação
+## 🧾 Nota
 
-Para executar este projeto, você deve possuir o Node e o Yarn instalado para configurar todas as dependências.
+A nota recebida nesse desafio foi:
 
-```
-- Clone o repositório:
-$ git clone https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios
-
-- Entre no diretório:
-$ cd desafio-conceitos-nodejs
-
-- Para instalar as dependências:
-$ yarn
-
-- Execute a aplicação:
-$ yarn dev
-
-- Open your browser in:
-http://localhost:3333/
-```
-
+<p align="center">
+  <img alt="Happy" src=".github/nota.png" width="100%">
+</p>
 
 ## 🍃 Rotas do Backend
 
@@ -76,6 +63,27 @@ Caso eu chame a rota `POST /repositories` repassando `{ title: 'Novo Repositóri
 ## ⚙ Middleware
 
 Neste projeto, também foi desenvolvido um Middleware para validar o ID projeto como UUID quando é feita alguma solicitação com parâmetro ID.
+
+## 💿 Instalação
+
+Para executar este projeto, você deve possuir o Node e o Yarn instalado para configurar todas as dependências.
+
+```
+- Clone o repositório:
+$ git clone https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios
+
+- Entre no diretório:
+$ cd desafio-conceitos-nodejs
+
+- Para instalar as dependências:
+$ yarn
+
+- Execute a aplicação:
+$ yarn dev
+
+- Open your browser in:
+http://localhost:3333/
+```
 
 ## 📝 Licença
 

@@ -1,6 +1,6 @@
 <img width="100%" alt="GoStack" src="../.github/gostack-banner.png">
 <h3 align="center">
-    Desafio 02: Conceitos do Node,JS
+    Desafio 02: Conceitos do Node.JS
 </h3>
 
 <p align="center">

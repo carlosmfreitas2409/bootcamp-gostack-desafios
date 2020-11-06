@@ -11,7 +11,7 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 - [02 - Conceitos de Node.JS](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-conceitos-nodejs)
 - [03 - Conceitos de React.JS](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-conceitos-reactjs)
 - [04 - Conceitos de React Native](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-conceitos-react-native)
-- <--->
+- [05 - Fundamentos de Node.JS](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-nodejs)
 - <--->
 - <--->
 - <--->

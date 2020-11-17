@@ -38,23 +38,30 @@ A nota recebida nesse desafio foi:
 
 Resource URI              | Método HTTP | Finalidade
 ------------------------- | ----------- | -------
-/appointments             | GET         | Lista de agendamentos
-/appointments             | POST        | Cadastra um novo agendamento
-/users                    | POST        | Cadastra um novo usuário
-/users/avatar             | PATCH       | Atualiza o avatar do usuário
-/sessions                 | POST        | Inicia uma nova sessão
+/transactions             | GET         | Lista de transições
+/transactions             | POST        | Cadastra uma nova transação
+/transactions/:id         | DELETE      | Deleta uma transação
+/transactions/import      | POST        | Adiciona transições a partir do upload de um arquivo CSV
 
 ### Exemplo
 
-Caso eu chame a rota `POST /appointments` repassando `{ "provider_id": "ID_DO_PROVEDOR", "date": "2020-11-08T00:11:18.107Z" }`, minha lista de cadastros deve ficar da seguinte maneira:
+Caso eu chame a rota `POST /transactions` repassando `{ "title": 'Salário', "value": 2000, "type": 'income', "category": 'Salários' }`, minha lista de transações deve ficar da seguinte maneira:
 
 ```json
 {
-  "id": "ID-DO-AGENDAMENTO",
-  "provider_id": "ID_DO_PROVEDOR",
-  "date": "2020-11-08T00:11:18.107Z",
-  "created_at": "2020-11-08T00:11:18.107Z",
-  "updated_at": "2020-11-08T00:11:18.107Z"
+  "transactions": [
+    {
+      "id": "ID-DA-TRANSAÇÃO",
+      "title": "Salário",
+      "value": 2000,
+      "type": "income"
+    }
+  ],
+  "balance": {
+    "income": 2000,
+    "outcome": 0,
+    "total": 2000
+  }
 }
 ```
 

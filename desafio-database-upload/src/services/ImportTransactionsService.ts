@@ -66,7 +66,7 @@ class ImportTransactionsService {
       parseCSV.on('end', resolve);
     });
 
-    const checkCategoriesExists = await transactionsRepository.find({
+    const checkCategoriesExists = await categoriesRepository.find({
       where: {
         title: In(categories),
       },

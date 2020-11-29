@@ -18,6 +18,9 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
         <NavLink to="/" exact activeClassName="active">
           Listagem
         </NavLink>
+        <NavLink to="/create" activeClassName="active">
+          Adicionar
+        </NavLink>
         <NavLink to="/import" activeClassName="active">
           Importar
         </NavLink>

@@ -61,6 +61,7 @@ Caso eu chame a rota `POST /transactions` repassando `{ "title": 'Salário', "va
   }
 }
 ```
+
 **OBS:** Dentro de balance, o income é a soma de todos os valores das transações com `type` income. O outcome é a soma de todos os valores das transações com `type` outcome, e o total é o valor de `income - outcome`.
 
 ## 💿 Instalação
@@ -80,7 +81,7 @@ $ yarn
 - Execute a aplicação:
 $ yarn dev:server
 
-- Open your browser in:
+- Abra seu navegador em:
 http://localhost:3333/
 ```
 

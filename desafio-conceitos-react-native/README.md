@@ -22,7 +22,7 @@
 
 Nesse desafio, o objetivo foi desenvolver uma aplicação que irá armazenar repositórios do meu portfólio, utilizando a API já desenvolvida no desafio de back-end (02 - Conceitos de Node.JS), utilizando o Node.js.
 
-Para isso, foi desenvolvido um aplicativo Mobile SIMPLES, que envia requisiçes HTTP para o back-end, através do http://localhost:3333/. Ao clicar no botão "Curtir", a aplicação envia uma requisação POST contendo o ID do repositório.
+Para isso, foi desenvolvido um aplicativo Mobile SIMPLES, que envia requisiçes HTTP para o back-end, através do <http://localhost:3333/>. Ao clicar no botão "Curtir", a aplicação envia uma requisação POST contendo o ID do repositório.
 
 <p align="center">
   <img alt="Happy" src=".github/resultado.gif" width="30%" style="border-radius: 15px">
@@ -57,8 +57,7 @@ $ yarn start
 $ yarn android
 $ yarn ios
 
-- Open your browser in:
-http://localhost:3333/
+- Abra seu Android/IOS emulator
 ```
 
 ## 📝 Licença

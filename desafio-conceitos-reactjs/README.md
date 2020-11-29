@@ -22,7 +22,7 @@
 
 Nesse desafio, o objetivo foi desenvolver uma aplicação que irá armazenar repositórios do meu portfólio, utilizando a API já desenvolvida no último desafio de back-end (02 - Conceitos de Node.JS), utilizando o Node.js.
 
-Para isso, foi desenvolvido um front-end SIMPLES que envia requisiçes HTTP para o back-end, através do http://localhost:3333/. Ao clicar no botão "Adicionar", o front-end envia uma requisação POST contendo `title, url e techs` com valores temporários, já que ainda não possuimos um formulário. Já ao clicar no botão "Remover", o front-end envia uma requisição DELETE contendo o ID do repositório.
+Para isso, foi desenvolvido um front-end SIMPLES que envia requisiçes HTTP para o back-end, através do <http://localhost:3333/>. Ao clicar no botão "Adicionar", o front-end envia uma requisação POST contendo `title, url e techs` com valores temporários, já que ainda não possuimos um formulário. Já ao clicar no botão "Remover", o front-end envia uma requisição DELETE contendo o ID do repositório.
 
 Neste momento, ainda não conseguimos adicionar repositórios com valores específicos, atualizar o repositório e dar "like" no repositório, os mesmos ainda serão adicionados.
 
@@ -55,7 +55,7 @@ $ yarn
 - Execute a aplicação:
 $ yarn start
 
-- Open your browser in:
+- O site irá abrir automaticamente, ou então:
 http://localhost:3333/
 ```
 

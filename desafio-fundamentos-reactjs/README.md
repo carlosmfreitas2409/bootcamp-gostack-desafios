@@ -20,7 +20,7 @@
 
 ## 🚀 Sobre o Desafio
 
-Nesse desafio, o objeti foi continuar desenvolvendo a aplicação de gestão de transações, a GoFinances, treinando o que eu aprendi até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.
+Nesse desafio, o objetivo foi continuar desenvolvendo a aplicação de gestão de transações, a GoFinances, treinando o que eu aprendi até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.
 
 Essa aplicação se conecta com ao meu backend do <a href="https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-database-upload">Desafio 06</a>, onde exibe as transações criadas e permite a importação de um arquivo CSV para gerar novos registros no banco de dados.
 
@@ -51,10 +51,10 @@ $ cd desafio-fundamentos-reactjs
 $ yarn
 
 - Execute a aplicação:
-$ yarn dev:server
+$ yarn start
 
-- Open your browser in:
-http://localhost:3333/
+- O site irá abrir automaticamente, ou então:
+http://localhost:3000/
 ```
 
 ## 📝 Licença

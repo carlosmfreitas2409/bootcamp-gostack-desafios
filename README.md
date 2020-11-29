@@ -14,7 +14,7 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 - [05 - Fundamentos de Node.JS](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-nodejs)
 - [06 - Banco de dados e upload de arquivos no Node.JS](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-database-upload)
 - [07 - Desafio Fundamentos React.JS (GoFinances Web)](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-reactjs)
-- <--->
+- [08 - Fundamentos do React Native (GoMarketplace)](https://github.com/carlosmfreitas2409/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-react-native)
 - <--->
 - <--->
 - <--->
